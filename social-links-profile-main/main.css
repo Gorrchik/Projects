@@ -30,14 +30,14 @@ body {
 }
 
 .developer_country {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   margin: 10px 0 30px 0;
   color: hsl(75, 94%, 57%);
 }
 
 .developer_specialization {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
   margin-bottom: 30px;
   color: hsl(0, 0%, 70%);
@@ -62,31 +62,31 @@ body {
 .button_text_github {
   padding: 15px 0 15px 0;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button_text_mentor {
   padding: 15px 0 15px 0;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button_text_linkedin {
   padding: 15px 0 15px 0;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button_text_twitter {
   padding: 15px 0 15px 0;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button_text_instagram {
   padding: 15px 0 15px 0;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 540px) {
