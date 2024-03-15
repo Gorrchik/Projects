@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter;
+}
+
+.main_block {
+  text-align: center;
+  width: 450px;
+  height: 700px;
+  margin: 200px 0 0 0;
+  border-radius: 17px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 50px 170px 25px 170px;
+  border-radius: 50px;
+}
+
+.developer_name {
+  font-weight: 500;
+  font-size: 1.7em;
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.developer_country {
+  font-weight: 500;
+  margin: 10px 0 30px 0;
+  color: hsl(75, 94%, 57%);
+}
+
+.developer_specialization {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 70%);
+}
+
+.button {
+  width: 340px;
+  height: 50px;
+  margin: 0 55px 20px 55px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+.button:hover {
+  transition: 0.3s;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.button_text_github {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.button_text_mentor {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.button_text_linkedin {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.button_text_twitter {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.button_text_instagram {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 540px) {
+  .main_block {
+    max-width: min(97%, 400px);
+    height: 650px;
+  }
+
+  .avatar {
+    margin: 30px 125px 27px 125px;
+  }
+
+  .developer_country {
+    margin-bottom: 35px;
+  }
+
+  .developer_specialization {
+    margin-bottom: 30px;
+  }
+
+  .button {
+    max-width: min(95%, 315px);
+    margin: 0 15px 20px 15px;
+  }
+}
